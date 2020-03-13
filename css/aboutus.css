@@ -60,8 +60,6 @@ p {
     text-shadow: none;
   }
   
-  
-  
   img::-moz-selection {
     color: #fff;
     background: transparent;
@@ -406,6 +404,9 @@ p {
     padding: 25px 35px;
   }
   
+  /* 
+    setting up parallax scrolling for 2 separate image sections 
+  */ 
   .parallax1 {
     /* The image used */
     background-image: url("https://images.pexels.com/photos/117018/pexels-photo-117018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
