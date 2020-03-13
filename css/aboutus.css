@@ -60,6 +60,8 @@ p {
     text-shadow: none;
   }
   
+  
+  
   img::-moz-selection {
     color: #fff;
     background: transparent;
@@ -157,12 +159,12 @@ p {
   }
   
   header.masthead {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px;
     background: no-repeat center center;
     background-color: #868e96;
-    background-attachment: scroll;
+    background-attachment: scroll; */
     position: relative;
-    background-size: cover;
+    /* background-size: cover; */
   }
   
   header.masthead .overlay {
@@ -253,6 +255,9 @@ p {
     header.masthead .post-heading .subheading {
       font-size: 30px;
     }
+    .parallax {
+      background-attachment: scroll;
+    }
   }
   
   .post-preview > a {
@@ -295,6 +300,9 @@ p {
   @media only screen and (min-width: 768px) {
     .post-preview > a > .post-title {
       font-size: 36px;
+    }
+    .parallax {
+      background-attachment: scroll;
     }
   }
   
@@ -398,3 +406,30 @@ p {
     padding: 25px 35px;
   }
   
+  .parallax1 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/117018/pexels-photo-117018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("../yellowpencils.jpeg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
