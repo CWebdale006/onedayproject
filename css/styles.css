@@ -1,7 +1,4 @@
-img.d-block.w-100 {
-  height: 20%;
-}
-
+/* Adds 5% margin to the h1 header on the home page */
 h1.head {
   margin-top: 5%;
 }
